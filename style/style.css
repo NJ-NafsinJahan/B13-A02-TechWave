@@ -130,7 +130,6 @@ body{
 
 }
 
-/* Content */
 .about-content h1 {
   font-size: 3rem;
   font-weight: 700;
@@ -147,7 +146,6 @@ body{
   line-height: 1.6;
 }
 
-/* Stats area */
 .about-card {
   margin-top: 60px;
   display: flex;
@@ -166,6 +164,71 @@ body{
   font-size: 1rem;
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 1);
+}
+
+/* why choose tech wave styles */
+
+
+.why {
+  max-width: 1600px;  
+  padding: 200px 120px;
+  margin: auto;
+  background-color: rgba(35, 14, 61, 1);
+}
+
+.why h2 {
+  color: #FFFFFF;    
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+/*for Grid */
+.why-box-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 200px) 250px;
+  gap: 30px;
+}
+
+/*for Card */
+.card {
+  color: #FFFFFF;  
+  background-color: rgba(53, 17, 101, 0.4);
+  border-radius: 25px;
+  padding: 30px;
+}
+
+.card h3 {
+  margin: 15px 0 10px;
+  font-size: 20px;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* Image icon */
+.icon-img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+/* Grid span */
+/* .tall  */
+.audio{
+  grid-row: span 2;
+}
+.mobile,
+.global{
+    grid-column: span 2;
+}
+
+.interview {
+  grid-column: span 2;
 }
 
 
@@ -208,6 +271,21 @@ body{
     gap: 30px;
     margin-top: 40px;
   }
+
+  .why-box-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .mobile,
+  .global, .audio{
+    max-width: 400px;
+    height: 200px;
+    padding: 24px;
+   }
+
+
+
 }
 
 
