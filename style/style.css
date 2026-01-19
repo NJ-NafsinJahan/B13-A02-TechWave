@@ -10,12 +10,10 @@
   font-style: normal;
 }
 
-
-/* body{
-    background-color: aqua;
-} */
-
 /* shared styles */
+body{
+    margin: 0px;
+}
 .display-flex{
     display: flex;
 }
@@ -25,13 +23,18 @@
     color: rgba(255, 255, 255, 1);
 }
 
-
-/* header styles */
+/* for dark background color */
+.dark-background{
+    color: rgba(26, 11, 46, 1);
+}
 
 /* navbar related styles */
-/* .navbar{
-    
-} */
+.navbar{
+    background-color: rgba(26, 11, 46, 1) ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 200px;
+}
 
 .nav-item{
     list-style: none;
@@ -42,4 +45,71 @@
     text-decoration: none;
     font-size: 1rem;
     font-weight: 500;
+}
+
+.btn-primary{
+    border-radius: 10000px;
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+    padding: 12px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    display: flex;
+    gap: 6px;
+}
+
+/* menu icon hide in desktop */
+.menu-icon{
+    display: none;
+    width: 30px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* responsive media query */
+
+@media screen and (max-width:576px){
+    .navbar{
+        padding: 12px 20px;
+    }
+    .nav-link, 
+    .btn-primary{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+}
+
+
+/* for medium size device */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    
+.navbar{
+        padding: 12px 20px;
+    }
+    .nav-link, 
+    .btn-primary{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+
+}
+
+/* for large screens */
+
+@media screen and (min-width: 993px){
+    .nav-link, 
+    .btn-primary{
+        display: flex;
+        gap: 20px;
+    }
+    
 }
