@@ -126,7 +126,8 @@ body{
 .about {
   padding: 80px 20px;
   text-align: center;
-  background: linear-gradient(180deg, #1b1230, #0f0b1d);
+  background-color: rgba(26, 11, 46, 1);
+
 }
 
 /* Content */
@@ -183,6 +184,30 @@ body{
     .menu-icon{
         display: block;
     }
+
+    .about {
+    padding: 50px 15px;
+     }
+
+      .about-content h1 {
+    font-size: 2rem;
+    }
+
+    .about-content-text {
+    font-size: 1rem;
+    line-height: 1.5;
+     }
+
+    .about-card-box h2 {
+    font-size: 2.5rem;
+    }
+
+     .about-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 column */
+    gap: 30px;
+    margin-top: 40px;
+  }
 }
 
 
