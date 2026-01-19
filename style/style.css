@@ -1,3 +1,45 @@
-body{
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* body{
     background-color: aqua;
+} */
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+
+/* for multiple texts */
+.text-color{
+    color: rgba(255, 255, 255, 1);
+}
+
+
+/* header styles */
+
+/* navbar related styles */
+/* .navbar{
+    
+} */
+
+.nav-item{
+    list-style: none;
+    margin-left: 32px;
+}
+
+.nan-link{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
 }
