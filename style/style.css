@@ -239,18 +239,21 @@ body{
   padding: 10px 100px;
   margin: auto;
   background-color: rgba(35, 14, 61, 1);
+  
 }
 
 .featured h1{
     color: #FFFFFF;
     font-size: 3rem;
     font-weight: 700;
+    justify-content: center;
+    align-items: center;
 }
 
 .featured-video{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 5px;
+    gap: 20px;
 }
 /* shared items */
 .video-time-txt{
@@ -275,7 +278,7 @@ body{
     /* justify-items: flex-start; */
     gap: 8px;
 }
-.video-txt-padding{
+.video-txt-container{
     padding: 24px;
 }
 
