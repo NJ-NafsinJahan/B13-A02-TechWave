@@ -134,8 +134,16 @@ body{
     border-radius: 20px;
     margin-left: 230px;
     margin-top: -360px;
-    position:absolute
+    position:absolute;
+    animation: float 2s infinite ease-in-out;
 }
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-30px); }
+  100% { transform: translateY(0); }
+}
+
 
 .banner-content{
     /* border: 2px solid red; */
