@@ -252,6 +252,7 @@ body{
 
 .featured-video{
     display: grid;
+    place-content: center;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
@@ -286,6 +287,10 @@ body{
     background-color:rgb(49, 24, 79);
     border-radius: 15px;
     /* padding:10px 10px  ; */
+}
+
+.iframe-red{
+    border-radius: 15px;
 }
 
 
@@ -440,8 +445,9 @@ body{
 }
 /* featured section */
 .featured h1{
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 700;
+    text-align: center;
 }
 .featured-video{
     display: flex;
