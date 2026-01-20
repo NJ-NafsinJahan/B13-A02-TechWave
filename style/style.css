@@ -179,7 +179,7 @@ body{
 .why h2 {
   color: #FFFFFF;    
   text-align: center;
-  font-size: 36px;
+  font-size: 3rem;
   margin-bottom: 50px;
 }
 
@@ -201,11 +201,11 @@ body{
 
 .card h3 {
   margin: 15px 0 10px;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .card p {
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 1.6;
   color: rgba(255, 255, 255, 1);
 }
@@ -218,7 +218,6 @@ body{
 }
 
 /* Grid span */
-/* .tall  */
 .audio{
   grid-row: span 2;
 }
@@ -230,6 +229,63 @@ body{
 .interview {
   grid-column: span 2;
 }
+.resource{
+    grid-row: span 1;
+}
+
+
+/* for host sections */
+
+
+.host {
+  max-width: 1600px;  
+  padding: 10px 100px;
+  margin: auto;
+  background-color: rgba(35, 14, 61, 1);
+}
+
+.host-header{
+  color: #FFFFFF;    
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+.host-container{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 40px;
+    border-radius: 40px;
+    gap: 24px;
+    background-color: rgba(53, 17, 101, 0.4);
+}
+.host-info{
+    padding: 0px 40px 48.5px 24px;
+    width: 100%;
+}
+
+.host-name{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFFFFF; 
+}
+
+.host-details{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF; 
+
+}
+
+.host-social-links{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
 
 
 
@@ -267,7 +323,7 @@ body{
 
      .about-card {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 column */
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     margin-top: 40px;
   }
@@ -275,14 +331,48 @@ body{
   .why-box-grid{
     display: grid;
     grid-template-columns: 1fr;
+    justify-content: center;
+    height: auto;
+
+  }
+  .why h2{
+    font-size: 2.25rem;
   }
 
   .mobile,
-  .global, .audio{
+  .global, .audio, .interview, .resource{
+    /* border: 2px solid red; */
     max-width: 400px;
-    height: 200px;
-    padding: 24px;
    }
+
+.card h3 {
+  font-size: 1.2rem;
+}
+
+.card p {
+  font-size: .85rem;
+
+}
+
+/* for host sections */
+.host-header{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.host-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+    width: 90%;
+}
+
+.host-social-links{
+    justify-content: center;
+}
+
+
+
 
 
 
@@ -293,17 +383,6 @@ body{
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
     
-.navbar{
-        padding: 12px 20px;
-    }
-    .nav-link, 
-    .btn-primary{
-        display: none;
-    }
-    .menu-icon{
-        display: block;
-    }
-
 }
 
 /* for large screens */
