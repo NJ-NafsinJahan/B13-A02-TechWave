@@ -112,6 +112,18 @@ body{
 
 }
 
+.banner-img-btn{
+    background-color: #00FF88;
+    border: none;
+    padding: 20px 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-left: 230px;
+    margin-top: -360px;
+    position:absolute
+}
+
 .banner-content{
     /* border: 2px solid red; */
     width: 550px;
@@ -409,6 +421,14 @@ body{
         display: block;
     }
 
+    .common-text{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    /* text-align: center; */
+     }
+
     .about {
     padding: 50px 15px;
      }
@@ -492,19 +512,8 @@ body{
 .footer{
     /* background-size: contain; */
     background-repeat: no-repeat;
-    height: px;
-    /* background-position: center; */
-    /* background-size: 100%; */
+    height: px; 
 }
-/* .footer{
-    background-image: url("../images/footer-bg.png");
-    background-size:cover ;
-    background-position: center;
-    max-width: 1600px;
-    height: 412px;
-    text-align: center;
-    justify-content: center;
-} */
 
 .footer-content{
     display: grid;
@@ -516,10 +525,6 @@ body{
     grid-template-columns: 1fr 1fr;
     gap: 5px;
 }
-
-
-
-
 
 
 }
