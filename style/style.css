@@ -21,7 +21,7 @@ body{
 }
 .common-text{
     color: rgba(255, 255, 255, 1);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 19px;
     /* text-align: center; */
@@ -54,6 +54,19 @@ body{
     text-decoration: none;
     font-size: 1rem;
     font-weight: 500;
+}
+
+.btn-primary-nav{
+    border-radius: 10000px;
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+    padding: 12px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    display: flex;
+    gap: 6px;
+
 }
 
 .btn-primary{
@@ -405,8 +418,6 @@ body{
 }
 
 
-
-
 /* responsive media query */
 
 @media screen and (max-width:576px){
@@ -414,7 +425,7 @@ body{
         padding: 12px 20px;
     }
     .nav-link, 
-    .btn-primary{
+    .btn-primary-nav{
         display: none;
     }
     .menu-icon{
@@ -422,12 +433,36 @@ body{
     }
 
     .common-text{
-    color: rgba(255, 255, 255, 1);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
-    /* text-align: center; */
+    font-size: 0.8rem;
      }
+     
+     .btn-primary{
+    border-radius: 10000px;
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+    padding: 12px 16px;
+    font-size: .8rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    display: flex;
+    gap: 6px;
+}
+
+.btn-simple{
+    padding: 11px 16px;
+    font-size: .8rem;
+    font-weight: 500;
+
+}
+
+.banner-img{
+    width: 280px;
+    box-sizing: border-box;
+    padding: 80px 80px 0px 100px;
+    /* position: absolute; */
+
+}
+
 
     .about {
     padding: 50px 15px;
