@@ -233,6 +233,59 @@ body{
     grid-row: span 1;
 }
 
+/* featured Episodes sections */
+.featured{
+  max-width: 1600px;  
+  padding: 10px 100px;
+  margin: auto;
+  background-color: rgba(35, 14, 61, 1);
+}
+
+.featured h1{
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.featured-video{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+/* shared items */
+.video-time-txt{
+    font-size: 1rem;
+    color: #00FF88;
+}
+
+.video-box-text h3 {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+.video-box-text p{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.display-flex{
+    display: flex;
+    /* justify-items: flex-start; */
+    gap: 8px;
+}
+.video-txt-padding{
+    padding: 24px;
+}
+
+.video-box-1, .video-box-2, .video-box-3{
+    background-color:rgb(49, 24, 79);
+    border-radius: 15px;
+    /* padding:10px 10px  ; */
+}
+
+
 
 /* for host sections */
 
